@@ -16,7 +16,7 @@ struct ___VARIABLE_MVVMSwiftModuleName___View: View {
     // MARK: - View
 
     var body: some View {
-        ZStack {
+        Group {
             switch viewModel.state {
             case .loading:
                 ProgressView()
@@ -34,6 +34,11 @@ struct ___VARIABLE_MVVMSwiftModuleName___View: View {
             viewModel.send(.viewAppeared)
         }
     }
+}
+
+// MARK: - Private
+
+private extension ___VARIABLE_MVVMSwiftModuleName___View {
 }
 
 #Preview {
