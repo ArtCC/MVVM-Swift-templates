@@ -8,6 +8,7 @@
 
 import Foundation
 
+@MainActor
 final class ___VARIABLE_MVVMSwiftModuleName___ViewModel: ObservableObject {
     // MARK: - Properties
 

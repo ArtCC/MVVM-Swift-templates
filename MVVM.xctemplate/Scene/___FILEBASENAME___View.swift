@@ -23,11 +23,7 @@ struct ___VARIABLE_MVVMSwiftModuleName___View: View {
             case .loaded:
                 VStack {
                     Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-                    Text("hello.world.text")
                 }
-                .padding()
             }
         }
         .onAppear {
@@ -39,8 +35,4 @@ struct ___VARIABLE_MVVMSwiftModuleName___View: View {
 // MARK: - Private
 
 private extension ___VARIABLE_MVVMSwiftModuleName___View {
-}
-
-#Preview {
-    ___VARIABLE_MVVMSwiftModuleName___View()
 }
