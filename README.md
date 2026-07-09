@@ -2,7 +2,14 @@
 
 ## Overview
 
-Templates for creating an MVVM scene in Swift and SwiftUI.
+Templates for creating MVVM scenes and feature modules in Swift and SwiftUI.
+
+Available module types:
+
+- `Scene`: lightweight SwiftUI `View` + `ViewModel`.
+- `Feature`: feature-first module with `View`, `ViewModel`, `UseCase`, `Repository` and `Model`, inspired by the architecture used in `openclient-llm`.
+- `UseCase`: standalone reusable use case with protocol and implementation.
+- `Repository`: standalone reusable repository with protocol and implementation.
 
 ## How to install in your Xcode
 
@@ -10,7 +17,7 @@ Templates for creating an MVVM scene in Swift and SwiftUI.
 
 `./installTemplates.sh`
 
-Done. Now you can find Clean Swift module template in Xcode.
+Done. Now you can find the MVVM Swift module template in Xcode.
 
 ## License
 
@@ -18,4 +25,4 @@ Done. Now you can find Clean Swift module template in Xcode.
 
 ---
 
-**Arturo Carretero Calvo - 2024**
+**Arturo Carretero Calvo - 2026**

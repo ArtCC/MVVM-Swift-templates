@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MVVM</string>
 	<key>Description</key>
-	<string>Templates for creating an MVVM scene in Swift and SwiftUI.</string>
+	<string>Templates for creating an MVVM scene, feature, use case or repository in Swift and SwiftUI.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -52,6 +52,9 @@
 			<key>Values</key>
 			<array>
 				<string>Scene</string>
+				<string>Feature</string>
+				<string>UseCase</string>
+				<string>Repository</string>
 			</array>
 			<key>Default</key>
 			<string>Scene</string>
@@ -70,6 +73,6 @@
 	<key>Template Author</key>
 	<string>ArtCC</string>
 	<key>Summary</key>
-	<string>Templates for creating an MVVM scene in Swift and SwiftUI.</string>
+	<string>Templates for creating an MVVM scene, feature, use case or repository in Swift and SwiftUI.</string>
 </dict>
 </plist>

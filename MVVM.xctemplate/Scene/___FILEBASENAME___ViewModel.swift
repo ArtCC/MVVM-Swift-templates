@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Observation
 
+@Observable
 @MainActor
-final class ___VARIABLE_MVVMSwiftModuleName___ViewModel: ObservableObject {
+final class ___VARIABLE_MVVMSwiftModuleName___ViewModel {
     // MARK: - Properties
 
     enum Event {
@@ -24,7 +26,7 @@ final class ___VARIABLE_MVVMSwiftModuleName___ViewModel: ObservableObject {
     struct LoadedState: Equatable {
     }
 
-    @Published private(set) var state: State
+    private(set) var state: State
 
     // MARK: - Init
 

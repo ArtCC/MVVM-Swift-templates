@@ -11,7 +11,7 @@ import SwiftUI
 struct ___VARIABLE_MVVMSwiftModuleName___View: View {
     // MARK: - Properties
 
-    @StateObject var viewModel = ___VARIABLE_MVVMSwiftModuleName___ViewModel()
+    @State private var viewModel = ___VARIABLE_MVVMSwiftModuleName___ViewModel()
 
     // MARK: - View
 
@@ -26,7 +26,7 @@ struct ___VARIABLE_MVVMSwiftModuleName___View: View {
                 }
             }
         }
-        .onAppear {
+        .task {
             viewModel.send(.viewAppeared)
         }
     }
